@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar starts -->
+    <nav>
+        <div class="navbar">
+            <img src="./images/logo/logo_transparent.png" class="lead" alt="Mridang" srcset="">
+            <!-- <h1 class="lead">Mridang</h1> -->
+            <ul class="menu">
+                <li class='menu-item '>
+                    <a  class="nav-link " href="#events">
+                        Events 
+                        <!-- <span> &#x25BC; </span> -->
+                    </a>
+                    <!-- <ul class="sub-menu">
+                        <li><a class='nav-link' href=""> Class 11 </a></li>
+                        <li><a class='nav-link' href=""> Class 12 </a></li>
+                    </ul> -->
+                </li>
+                <li class='menu-item'>
+                    <a class="nav-link " href="#competitions">Competitions</a>
+                </li>
+                <li class='menu-item'>
+                    <a class="nav-link " href="#">Contact</a>
+
+                </li>
+                <li class='menu-item btn show-modal'>
+                    <!-- <a class="nav-btn " href="#"> -->
+                    Time Left
+                    <!-- </a> -->
+                </li>
+            </ul>
+
+            <div class="hamburger ">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            
+        </div>
+    </nav>
+
+    <nav class='mobile-nav'>
+        <ul class="mobile-menu">
+            <li class='menu-item is-active'><a   class="nav-link" href="#">Events</a></li>
+            <li class='menu-item'><a  class="nav-link" href="#">Competitions</a></li>
+            <li class='menu-item'><a  class="nav-link" href="#">Contact</a></li>
+            <li class='menu-item btn show-modal'><a class="nav-btn" href="#">Time left</a></li>
+        </ul>
+        
+    </nav>
+    <!-- Navbar Ends -->
+    
+    <!--Popup Starts-->
+    <div class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <h2 class="page-title">Time left for Mridang 2021</h2>
+        <p class="para">
+            Waiting for Mridang to start ? Us too !
+        </p>
+        <div class="countdown">
+            00 : 00 : 00
+        </div>
+    </div>
+    <div class="overlay hidden"></div>
+    <!-- Popup End -->
+
+    <!-- Content Starts -->
+    
+    <main class="main">
+        
+        <section class="pages ">
+
+            <div class="page is-active " data-page="1">
+
+                <div class="slider">
+                    <div class="slider__btns">
+                        <div class="slider__btn" id="prev"> < </div>
+                        <div class="slider__btn" id="next"> > </div>
+                    </div>
+                </div>
+
+                <!-- <h2 class="page-title  ">Home</h2> -->
+                <!-- <p class="para anim fade-up">Welcome to the home of Mridang 2021 </p> -->
+                
+                <article id='events' class="page-section anim fade-up">
+
+                    <h2 class="page-title ">Events </h2>
+
+                    <!-- <p>Cultural Events</p> -->
+                    <section class="event-container ">
+                        <div class="event-item">
+                            <p><span>Name :</span> Group Dance Class 10</p>
+                            <p><span>Category :</span> Cultural</p>
+                        </div>
+                        <div class="event-item">
+                            <p><span>Name :</span> Group Dance Class 6</p>
+                            <p><span>Category :</span> Cultural</p>
+                        </div>
+                        <div class="event-item">
+                            <p><span>Name :</span> Solo Dance Class 5</p>
+                            <p><span>Category :</span> Cultural</p>
+                        </div>
+                        <div class="event-item">
+                            <p><span>Name :</span> High Jump under 19</p>
+                            <p><span>Category :</span> Cultural</p>
+                        </div>
+                        <div class="event-item">
+                            <p><span>Name :</span> Solo singing under 16</p>
+                            <p><span>Category :</span> Cultural</p>
+                        </div>
+                        <div class="event-item">
+                            <p><span>Name :</span> Solo singing under 19</p>
+                            <p><span>Category :</span> Cultural</p>
+                        </div>
+                        <div class="event-item">
+                            <p><span>Name :</span> Play - Merchant of Venice</p>
+                            <p><span>Category :</span> Cultural</p>
+                        </div>
+                        <div class="event-item">
+                            <p><span>Name :</span> Play - Mock Parliament</p>
+                            <p><span>Category :</span> Cultural</p>
+                        </div>
+                        <div class="event-item">
+                            <p><span>Name :</span> 100 meter race under 16</p>
+                            <p><span>Category :</span> Sports</p>
+                        </div>
+                        <div class="event-item">
+                            <p><span>Name :</span> 100 meter race under 19</p>
+                            <p><span>Category :</span> Sports</p>
+                        </div>
+                        <div class="event-item">
+                            <p><span>Name :</span> 200 meter race under 16</p>
+                            <p><span>Category :</span> Sports</p>
+                        </div>
+                        <div class="event-item">
+                            <p><span>Name :</span> 200 meter race under 19</p>
+                            <p><span>Category :</span> Sports</p>
+                        </div>
+                        <div class="event-item">
+                            <p><span>Name :</span> High Jump under 16</p>
+                            <p><span>Category :</span>  Sports</p>
+                        </div>
+
+                    </section>
+
+                    <!-- <p>Sport Events</p>
+                    <section class="event-container ">
+                        <div class="event-item"></div>
+                        <div class="event-item"></div>
+                        <div class="event-item"></div>
+                        <div class="event-item"></div>
+                        <div class="event-item"></div>
+                        <div class="event-item"></div>
+                        <div class="event-item"></div>
+                        <div class="event-item"></div>
+                        <div class="event-item"></div>
+                        <div class="event-item"></div>
+                    </section> -->
+                </article>
+
+                <hr>
+                
+                <article id="competitions" class="page-section anim fade-up">
+                    <h2 class="page-title ">Competitions </h2>
+                    <div class="table-container anim fade-up">
+                        <table>
+                            <tr id="header">
+                                <th>Name</th>
+                                <th>Date</th>
+                                <th>Time</th>
+                                <th>Venue</th>
+                            </tr>
+                            <tr>
+                                <td>Debate Competition under 16 </td>
+                                <td>29th august,2021 </td>
+                                <td>1:00 P.M.</td>
+                                <td>Auditorium 1</td>
+                    
+                            </tr>
+                            <tr>
+                                <td>Debate Competition under 19</td>
+                                <td>29th august,2021</td>
+                                <td>1:00 P.M.</td>
+                                <td>Auditorium 2</td>
+                    
+                            </tr>
+                            <tr>
+                                <td>Dance competition under 16</td>
+                                <td>29th august,2021</td>
+                                <td>10:00 A.M.</td>
+                                <td>Auditorium 1</td>
+
+                    
+                            </tr>
+                            <tr>
+                                <td>Dance competition under 19</td>
+                                <td>29th august,2021</td>
+                                <td> 10:00 A.M.</td>
+                                <td>Auditorium 2</td>
+                    
+                            </tr>
+                            <tr>
+                                <td>Poem Recitation under 16</td>
+                                <td>30th august,2021</td>
+                                <td>10:00 A.M.</td>
+                                <td>Auditorium 1</td>
+                    
+                            </tr>
+                            <tr>
+                                <td>Poem Recitation under 19</td>
+                                <td>30th august,2021</td>
+                                <td>10:00 A.M.</td>
+                                <td>Auditorium 2</td>
+                    
+                            </tr>
+                    
+                        </table>
+                    </div>
+
+                </article>
+                
+                <hr>
+
+                <article id="contacts" class="page-section anim fade-up" >
+                    <h2 class="page-title">Contacts</h2>
+                    <div class="contact-container anim fade-up">
+                        <div class="contact-item">
+                            <p><span>Name :</span> Bina Rani</p>
+                            <p><span>Designation :</span> Discipline Team</p>
+                            <p><span>Mobile :</span> 9811098110</p>
+                            <p><span>Email :</span>  binarani@mridang2021.com</p>
+
+                        </div>
+
+                        <div class="contact-item">
+                            <p><span>Name :</span> Amit Sharma </p>
+                            <p><span>Designation :</span> Cultural Team</p>
+                            <p><span>Mobile :</span> 9811098110</p>
+                            <p><span>Email :</span> amitsharma@mridang2021.com</p>
+                            
+                        </div>
+
+                        <div class="contact-item">
+                            <p><span>Name :</span> A Ramchandra</p>
+                            <p><span>Designation :</span>Discipline Team</p>
+                            <p><span>Mobile :</span>9811098110</p>
+                            <p><span>Email :</span>aramchandra@mridang2021.com</p>
+                            
+                        </div>
+
+                        <div class="contact-item"> 
+                            <p><span>Name :</span> Rajeev Dutt</p>
+                            <p><span>Designation :</span> Management Team</p>
+                            <p><span>Mobile :</span> 9811098110</p>
+                            <p><span>Email :</span> rajeevdutt@mridang2021.com</p>
+                            
+                        </div>
+
+                        <div class="contact-item">
+                            <p><span>Name :</span> Priya Rao</p>
+                            <p><span>Designation :</span> Cultural Team</p>
+                            <p><span>Mobile :</span> 9811098110</p>
+                            <p><span>Email :</span> priyarao@mridang2021.com</p>
+                            
+                        </div>
+
+                        <div class="contact-item">
+                            <p><span>Name :</span> Arvind Gupta</p>
+                            <p><span>Designation :</span> Discipline Team</p>
+                            <p><span>Mobile :</span> 9811098110</p>
+                            <p><span>Email :</span> priyarao@mridang2021.com</p>
+                            
+                        </div>
+
+
+                    </div>
+                </article>
+            </div>
+            
+        </section>
+    </main>
+    <!-- Content Ends -->
+
+    <!-- Footer starts -->
+    <footer>
+        <div class="footer-content ">
+            <h3 class='lead anim fade-left'>Mridang 2021</h3>
+            <p class="para anim fade-up">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo iste corrupti doloribus odio sed!</p>
+        </div>
+        <div class="bottom ">
+        <p>Copyright &#169; 2021 <a href="#">Kids Zone Ltd. </a> All rights reserved</p>
+        </div>
+    </footer>
+    <!-- Footer ends -->
+
+    <script src="script.js"></script>
+</body>
+</html>
